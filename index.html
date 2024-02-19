@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap"
+      rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap"
+      rel="stylesheet" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="src/output.css" />
+
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+  </head>
+  <body>
+    <header class="h-[115dvh] bg-[#3ebfff] bg-bottom bg-no-repeat bg-contain max-xl:max-h-max max-md:h-[38rem]">
+      
+      <nav class="flex justify-between items-center py-8 px-8 z-10 max-sm:px-4">
+        <h1
+          id="topTe"
+          class="text-[2.5rem] font-bold text-white max-sm:text-[1.8rem]">
+          sunnyside
+        </h1>
+        <ul
+          id="tringle"
+          class="flex items-center relative gap-x-10 max-md:hidden max-md:bg-white max-md:h-fit max-md:w-[86%] max-md:flex-col max-md:gap-y-10 max-md:py-8 max-md:z-30 max-md:absolute max-md:top-[7.5rem] max-md:inset-0 max-md:mx-auto transition-all">
+          <li>
+            <a
+              class="text-white hover:text-gray-200 transition-all text-[1rem] font-bold max-md:text-gray-400 max-md:hover:text-gray-700"
+              href="#"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-white hover:text-gray-200 transition-all text-[1rem] font-bold max-md:text-gray-400 max-md:hover:text-gray-700"
+              href="#"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-white hover:text-gray-200 transition-all text-[1rem] font-bold max-md:text-gray-400 max-md:hover:text-gray-700"
+              href="#"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a
+              id="btn"
+              class="bg-white text-black rounded-3xl py-3 px-8 ml-4 font-semibold hover:bg-gray-200 transition-all text-[1.2rem] max-md:bg-yellow-400 max-md:hover:bg-blue-500 max-md:hover:text-white max-md:ml-0"
+              href="#"
+              >Contact</a
+            >
+          </li>
+        </ul>
+
+        <img
+          id="menu"
+          class="hidden max-md:block cursor-pointer"
+          src="images/icon-hamburger.svg"
+          alt="Menu" />
+      </nav>
+      <div
+        class="relative top-[5.8rem] grid place-items-center text-center gap-y-[6rem] max-md:top-[3.2rem]">
+        <h1
+          id="mainText"
+          class="text-[3.5rem] text-center tracking-widest text-white max-md:text-[3.5rem] max-sm:text-[2.3rem] max-sm:tracking-wider max-md:font-extrabold">
+          WE ARE CREATIVES
+        </h1>
+        <div class="animate-bounce">
+          <img src="images/icon-arrow-down.svg" alt="Arrow" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="flex max-md:flex-col-reverse">
+          <div
+            class="flex flex-col justify-center text-left w-[50%] h-[37.5rem] px-[7.5rem] gap-y-8 max-lg:px-[4.5rem] max-md:w-[100%] max-md:text-center max-md:items-center max-md:px-[1.5rem] max-sm:h-[19.5rem] max-sm:my-8">
+            <span class="font-bold text-4xl max-sm:text-[1.8rem]"
+              >Transform your brand</span
+            >
+            <p class="text-[1rem] text-[#A7ABAE] font-[600]">
+              We are full-service creative agency specializing in helping brands
+              grow fast. Engage your clients thtrough compelling visuals that do
+              most of the marketing for you.
+            </p>
+            <span
+              id="learn"
+              class="relative font-bold after:bg-[#FAD400] w-fit cursor-pointer after:hover:bg-[#d3ba2d] hover:text-gray-600 transition-all"
+              >LEARN MORE</span
+            >
+          </div>
+          <div
+            class="image-area1 w-[50%] h-[37.5rem] bg-cover bg-center bg-no-repeat max-md:w-[100%] max-sm:h-[19.5rem]"></div>
+        </div>
+
+        <div class="flex max-md:flex-col">
+          <div
+            class="image-area2 w-[50%] h-[37.5rem] bg-cover bg-center bg-no-repeat max-md:w-[100%] max-sm:h-[19.5rem]"></div>
+
+          <div
+            class="flex flex-col justify-center text-left w-[50%] h-[37.5rem] px-[7.5rem] gap-y-8 max-lg:px-[4.5rem] max-md:w-[100%] max-md:text-center max-md:items-center max-md:px-[1.5rem] max-sm:h-[19.5rem] max-sm:my-8">
+            <span class="font-bold text-4xl max-sm:text-[1.8rem]"
+              >Stand out to the right audience</span
+            >
+            <p class="text-[1rem] text-[#A7ABAE] font-[600]">
+              Using a collaborative formula of designers, researchers,
+              photographers, videographers, and copywriters, we’ll build and
+              extend your brand in digital places.
+            </p>
+            <span
+              id="learn"
+              class="relative font-bold after:bg-[#FE7867] w-fit cursor-pointer after:hover:bg-[#d3ba2d] hover:text-gray-600 transition-all"
+              >LEARN MORE</span
+            >
+          </div>
+        </div>
+
+        <div class="flex max-md:flex-col">
+          <div
+            class="graphic flex flex-col items-center justify-end px-[8.5rem] w-[50%] h-[37.5rem] bg-cover bg-center bg-no-repeat max-lg:px-[4.5rem] max-md:w-[100%] max-sm:px-[1.5rem]">
+            <span
+              class="text-center font-extrabold mb-[1.69rem] text-[1.75rem] tracking-[-0.0125rem] text-[#25564B]"
+              >Graphic design</span
+            >
+            <p
+              class="text-center text-[1rem] font-[600] leading-[1.6875rem] mb-[3.69rem] tracking-[-0.00713rem] text-[#25564B]">
+              Great design makes you memorable. We deliver artwork that
+              underscores your brand message and captures potential clients’
+              attention.
+            </p>
+          </div>
+
+          <div
+            class="photography flex flex-col items-center justify-end px-[8.5rem] w-[50%] h-[37.5rem] bg-cover bg-center bg-no-repeat max-lg:px-[4.5rem] max-md:w-[100%] max-sm:px-[1.5rem]">
+            <span
+              class="text-center font-extrabold mb-[1.69rem] text-[1.75rem] tracking-[-0.0125rem] text-[#19536B]"
+              >Photography</span
+            >
+            <p
+              class="text-center text-[1rem] font-[600] leading-[1.6875rem] mb-[3.69rem] tracking-[-0.00713rem] text-[#19536B]">
+              Increase your credibility by getting the most stunning,
+              high-quality photos that improve your business image.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="grid place-items-center">
+        <div class="grid place-items-center py-[7rem]">
+          <span
+            class="mb-[4rem] uppercase text-gray-400 tracking-[0.3rem] text-[1.2rem]"
+            >client testimonials</span
+          >
+          <div
+            class="grid grid-cols-3 gap-x-[2rem] px-[5rem] max-md:grid-cols-1 max-md:grid-rows-3 max-md:px-[1rem] max-md:gap-y-14">
+            <div class="grid place-items-center text-center gap-y-10 px-4">
+              <img
+                class="w-[4rem] rounded-full"
+                src="images/image-emily.jpg"
+                alt="EmilyPhoto" >
+              <p id="textMid" class="text-[#23303E]">
+                We put our trust in Sunnyside and they delivered,making sure our
+                needs were met and deadlines were always hit.
+              </p>
+              <div id="textEnd">
+                <h2 class="text-[1.2rem] font-bold">
+                  <strong>Emily R.</strong>
+                </h2>
+                <span class="font-thin text-[0.8.5rem] text-[#A7ABAE]"
+                  >Marketing Director</span
+                >
+              </div>
+            </div>
+
+            <div class="grid place-items-center text-center gap-y-10 px-4">
+              <img
+                class="w-[4rem] rounded-full"
+                src="images/image-thomas.jpg"
+                alt="ThomasPhoto" >
+              <p id="textMid" class="text-[#23303E]">
+                Sunnyside's enthusiasm coupied with their keen interest in out
+                brand's success made it a satisfying and enjoyable experience.
+              </p>
+              <div id="textEnd">
+                <h2 class="text-[1.2rem] font-bold">
+                  <strong>Thomas S.</strong>
+                </h2>
+                <span class="font-thin text-[0.8.5rem] text-[#A7ABAE]"
+                  >Cheif Operating Officer</span
+                >
+              </div>
+            </div>
+
+            <div class="grid place-items-center text-center gap-y-10 px-4">
+              <img
+                class="w-[4rem] rounded-full"
+                src="images/image-jennie.jpg"
+                alt="JeniePhoto" >
+              <p id="textMid" class="text-[#23303E]">
+                Incredible and result! our sales increased over 400% when we
+                worked with Sunnyside. <br />Highly recommended!
+              </p>
+              <div id="textEnd">
+                <h2 class="text-[1.2rem] font-bold">
+                  <strong>Jennie F.</strong>
+                </h2>
+                <span class="font-thin text-[0.8.5rem] text-[#A7ABAE]"
+                  >Business Ower</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="flex h-[31.25rem] w-full max-md:grid max-md:grid-cols-2 max-md:grid-rows-2 max-md:h-[25rem]">
+        <div
+          style="
+            background-image: url('images/desktop/image-gallery-milkbottles.jpg');
+            @media (max-width: 767px) {
+              background-image: url('images/mobile/image-gallery-milkbottles.jpg');
+            }
+          "
+          class="bg-no-repeat bg-cover bg-center h-full w-[25%] flex-1 hover:flex-[1.5] transition-all max-md:w-full"></div>
+        <div
+          style="
+            background-image: url('images/desktop/image-gallery-orange.jpg');
+            @media (max-width: 767px) {
+              background-image: url('images/mobile/image-gallery-orange.jpg');
+            }
+          "
+          class="bg-no-repeat bg-cover bg-center h-full w-[25%] flex-1 hover:flex-[1.5] transition-all max-md:w-full"></div>
+        <div
+          style="
+            background-image: url('images/desktop/image-gallery-cone.jpg');
+            @media (max-width: 767px) {
+              background-image: url('images/mobile/image-gallery-cone.jpg');
+            }
+          "
+          class="bg-no-repeat bg-cover bg-center h-full w-[25%] flex-1 hover:flex-[1.5] transition-all max-md:w-full"></div>
+        <div
+          style="
+            background-image: url('images/desktop/image-gallery-sugarcubes.jpg');
+            @media (max-width: 767px) {
+              background-image: url('images/mobile/image-gallery-sugar-cubes.jpg');
+            }
+          "
+          class="bg-no-repeat bg-cover bg-center h-full w-[25%] flex-1 hover:flex-[1.5] transition-all max-md:w-full"></div>
+      </div>
+    </main>
+
+    <footer class="bg-[#90d4c5] w-full h-[25rem] grid place-items-center">
+      <div class="grid place-items-center gap-y-[5rem]">
+        <div id="end" class="grid place-items-center gap-y-7">
+          <span class="text-[2.5rem] font-sans font-extrabold text-[#3e8375]"
+            >sunnyside</span
+          >
+          <ul class="flex items-center gap-x-[4rem]">
+            <li>
+              <a
+                class="text-[#458C7E] font-medium hover:text-gray-200 transition-all"
+                href="#"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-[#458C7E] font-medium hover:text-gray-200 transition-all"
+                href="#"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-[#458C7E] font-medium hover:text-gray-200 transition-all"
+                href="#"
+                >Projects</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="flex gap-x-6">
+          <img
+            class="hover:scale-125 transition-all cursor-pointer"
+            src="images/icon-facebook.svg"
+            alt="Facebook" />
+          <img
+            class="hover:scale-125 transition-all cursor-pointer"
+            src="images/icon-instagram.svg"
+            alt="Instagram" />
+          <img
+            class="hover:scale-125 transition-all cursor-pointer"
+            src="images/icon-twitter.svg"
+            alt="Twitter" />
+          <img
+            class="hover:scale-125 transition-all cursor-pointer"
+            src="images/icon-pinterest.svg"
+            alt="Pinterest" />
+        </div>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
