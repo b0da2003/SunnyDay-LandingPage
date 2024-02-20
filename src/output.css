@@ -832,10 +832,6 @@ video {
   display: none;
 }
 
-.h-\[100dvh\] {
-  height: 100dvh;
-}
-
 .h-\[25rem\] {
   height: 25rem;
 }
