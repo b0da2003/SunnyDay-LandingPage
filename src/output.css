@@ -848,8 +848,8 @@ video {
   height: 100%;
 }
 
-.h-screen {
-  height: 100vh;
+.min-h-\[50rem\] {
+  min-height: 50rem;
 }
 
 .w-\[25\%\] {
